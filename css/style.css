@@ -1,0 +1,242 @@
+body {
+    font-size: 1.3em;
+    font-family: sans-serif;
+
+}
+
+#search {
+    background-color: rgba(81, 70, 238, 0.767);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+}
+
+#search>p {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    text-transform: uppercase;
+    height: 20px;
+}
+
+#search-city {
+    position: relative;
+    right: 10px;
+    height: 20px;
+    outline: none;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.473);
+}
+
+#search-logo {
+    position: relative;
+    right: 5px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 40px;
+    border-bottom:2px solid rgba(146, 146, 146, 0.822); 
+}
+
+#menu>div {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+#menu>div>button:hover {
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#menu>div>button {
+    text-decoration: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+}
+
+#main-container {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+.today-weather {
+    position: relative;
+    top: 40px;
+    border: 3px solid rgba(146, 146, 146, 0.822);
+    margin: 0 40px 40px 40px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.top-div-container {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    height: 30px;
+    background-color: rgba(81, 70, 238, 0.767);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.top-div-container>p {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.top-div-container>div {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#current-data {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.weather-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    flex-direction: column;
+}
+
+.icon-weather {
+    width: 100px;
+    height: 100px;
+}
+
+#list {
+    position: relative;
+    top: 40px;
+    height: 100px;
+}
+#table-datas{
+    position: relative;
+    left: 80px;
+    height: 400px;
+    width: 1280px;
+
+}
+#table{
+    position: relative;
+    right: 5px;
+    left: 25px;
+    
+}
+.tab-line-title{
+    padding: 10px;
+}
+td,
+th {
+    border-bottom: 1px solid rgba(146, 146, 146, 0.822);
+    /* padding: 30px 80px 30px 80px; */
+    height: 12.5%;
+    width: 12.5%;
+    
+}
+
+#forecast-str > td {
+    height: 150px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* flex-direction: column; */
+    
+}
+
+#cities {
+    height: 165px;
+
+}
+
+#first-city {
+    display: inline-block;
+    position: absolute;
+    height: 70px;
+    width: 600px;
+    top: 45px;
+    left: 40px;
+    background-color: rgba(81, 70, 238, 0.767);
+    border-radius: 20px;
+}
+
+#second-city {
+    display: inline-block;
+    position: absolute;
+    height: 70px;
+    width: 600px;
+    top: 45px;
+    right: 40px;
+    border-radius: 20px;
+    background-color: rgba(81, 70, 238, 0.767);
+}
+
+#third-city {
+    display: inline-block;
+    position: absolute;
+    height: 70px;
+    width: 600px;
+    bottom: 25px;
+    right: 40px;
+    border-radius: 20px;
+    background-color: rgba(81, 70, 238, 0.767);
+}
+
+#fourth-city {
+    display: inline-block;
+    position: absolute;
+    height: 70px;
+    width: 600px;
+    bottom: 25px;
+    left: 40px;
+    border-radius: 20px;
+    background-color: rgba(81, 70, 238, 0.767);
+}
+
+
+
+
+#first-container{
+    border: none;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.five-day-weather{
+    border: 2px solid rgba(146, 146, 146, 0.822);
+    display: flex;
+    height:100%;
+    width: 19%;
+    margin: 0 20px 0 20px;
+    border-radius:10px;
+    flex-direction: column;
+
+}
+
+.day{
+    background-color:rgba(81, 70, 238, 0.767);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.hide{
+    display: none;
+}

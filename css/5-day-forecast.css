@@ -1,0 +1,14 @@
+#first-container{
+    border: none;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.five-day-weather{
+    border: 2px solid rgba(146, 146, 146, 0.822);
+    display: inline-block;
+    height:100%;
+    width: 17%;
+    margin: 0 20px 0 20px;
+    border-radius:10px ;
+}
